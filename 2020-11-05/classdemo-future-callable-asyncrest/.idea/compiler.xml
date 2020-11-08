@@ -15,7 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="pinger" options="-endorseddirs C:\Users\Oliver\Documents\3sem\flow3\week2\2020-11-05\classdemo-future-callable-asyncrest\target/endorsed" />
+      <module name="pinger" options="-endorseddirs C:\Users\Oliver\Documents\3sem\flow3\week2\sem3_flow3_week2\2020-11-05\classdemo-future-callable-asyncrest\target/endorsed" />
     </option>
   </component>
 </project>

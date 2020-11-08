@@ -15,7 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="devops-starter" options="-endorseddirs C:\Users\Oliver\Documents\3sem\flow3\week2\2020-11-04\dat3-startcode-security1\target/endorsed" />
+      <module name="devops-starter" options="-endorseddirs C:\Users\Oliver\Documents\3sem\flow3\week2\sem3_flow3_week2\2020-11-04\dat3-startcode-security1\target/endorsed" />
     </option>
   </component>
 </project>

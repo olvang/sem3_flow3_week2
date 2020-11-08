@@ -76,12 +76,16 @@ public class Tester {
             System.out.println("----------------------------------");
         }
 
-        
+        long timeParrallel;
         start = System.nanoTime();
-        //TODO Add your parrallel calculation here     
+
+        List<TagDTO> fetchedDataParrallel = new Tester().runParrallel();
+        end = System.nanoTime();
+        timeParrallel = end - start;
+
         long timeParallel = System.nanoTime() - start;
         System.out.println("Time Parallel: " + ((timeParallel) / 1_000_000) + " ms.");
-        System.out.println("Paralle was " + timeSequental / timeParallel + " times faster");
+        System.out.println("Paralle was " + timeSequental / timeParrallel + " times faster");
 
     }
 }
